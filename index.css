@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	background-color: #a76b66;
+}
+
+#hero {
+	overflow: hidden;
+	position: relative;
+	max-height: 600px;
+}
+
+#hero img {
+	max-width: 100%;
+	height: auto;
+}
+
+#title-wrapper {
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#title-wrapper div {
+	margin: auto;
+   font-family: helvetica;
+   margin-top: 1em;
+   font-weight: 300;
+}
+
+#name {
+	font-size: 40px;
+   color: #405d27;
+   text-shadow: 0px 0px 5px white;
+
+}
+
+#description {
+	font-size: 24px;
+	font-family: courier;
+	color: #3e4444;
+	text-shadow: 0px 0px 5px white;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+}
+
+#container {
+	max-width: 50em;
+   margin: auto;
+   margin-top: -21px;
+   padding: 20px;
+   box-shadow: 0px 0px 3px black;
+   background-color: aliceblue;
+}
+
+#container img {
+	max-width: 100%;
+}
+
+#cards {
+	display: flex;
+	
+}
+
+#welcome {
+	text-align: center;
+	padding: 1em;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	background-color: #3e4444;
+}
