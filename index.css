@@ -1,8 +1,10 @@
 body {
 	margin: 0;
-	background-color: #a76b66;
+	background-color: whitesmoke;
 }
-
+a {
+	text-decoration: none;
+}
 #hero {
 	overflow: hidden;
 	position: relative;
@@ -59,18 +61,12 @@ body {
    margin: auto;
    margin-top: -21px;
    padding: 20px;
-   box-shadow: 0px 0px 3px black;
-   background-color: aliceblue;
 }
 
 #container img {
 	max-width: 100%;
 }
 
-#cards {
-	display: flex;
-	
-}
 
 #welcome {
 	text-align: center;
@@ -84,11 +80,43 @@ body {
 }
 
 #navbar {
-	height: 40px;
-	background-color: black;
+	width: 100%;
+	z-index: 100;
 	opacity: 1;
 	border-bottom: 1px solid white;
 	position: fixed;
+	display: flex;
+	align-items: center;
+
+	transition: all 0.4s ease;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+.nav-item {
+	text-decoration: none;
+	padding: 0 1em;
+	font-family: 'Noto Sans', sans-serif;
+	height: 5em;
+	display: flex;
+	align-items: center;
+	transition: all 0.4s ease;
+	color: white;
+	cursor: pointer;
+}
+
+.color-change {
+	background-color: #333333;
+}
+
+.height-change {
+	height: 4em;
+}
+
+.nav-item:hover {
+	background-color: white;
+	color: #333333;
 }
 
 .fixed {
@@ -106,5 +134,9 @@ body {
 
 	#description {
 		font-size: 18px;
+	}
+
+	#navbar {
+		display: none;
 	}
 }

@@ -3,13 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>4 Roots Farm</title>
-	<link href="https://fonts.googleapis.com/css?family=KoHo|Montserrat|Noto+Serif+SC" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=KoHo|Poppins:500|Noto+Sans|Lato||Montserrat:600|Noto+Serif+SC" rel="stylesheet">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<div id="navbar">
-		<div id="nav-about">About</div>
-		<div id="nav-other">Contact</div>
+		<div class="nav-item" id="nav-about" onClick="location.href='#about-us'">About Us</div>
+		<div class="nav-item" id="nav-chickens" onClick="location.href='#chickens'">Our Chickens</div>
+		<div class="nav-item" id="nav-other" onClick="location.href='#contact-us'">Contact</div>
 	</div>
 	<div id="hero" class="hero flex-center">
 		<div id="title-wrapper" class="col">
@@ -24,13 +27,17 @@
 	</div>
 
 	<div id="container">
-		<h1 id="welcome">Local, Sustainable, Delicious</h1>
+		<h1 id="about-us">Local, Sustainable, Delicious</h1>
 		<h2>About Us</h2>
-		<p>4 Roots Farm is a member owned and operated farm based in Philomath Oregon. Our farm was established in January of 2019 and is run by 4 horticulture majors with expertise in sustainable agricultural production. Our mission is to provide our community with the freshest produce and eggs at affordable prices while using our horticultural knowledge to produce crops in a sustainable way. Although we are not organically certified, all of our production methods follow organic guidelines. We never use synthetic fertilizers, pesticides, herbicides or fungicides. Instead, we use time tested farming techniques such as crop rotations and the utilization of beneficial insects to combat pest and disease issues in our crops. Instead of conventional fertilizers, we use compost and natural sources of nutrients to supply our crops with the nutrition they need. Our chickens are raised on our pasture where they have plenty of room to roam and do what chickens do best. We source our feed from a local feed company called Mosaic farms. Mosaic farms sources their feed from local farms and they value sustainable practices. Their feed is non gmo as well as corn and soy free. Check out their website for more information on their feed at www.mosaicfarms.com. We strive to be as transparent with our production methods as possible. If you have any questions about our farm or would like to join our CSA program please feel free to contact us at 4rootsfarm@gmail.com.</p>
+		<p>4 Roots Farm is a member owned and operated farm based in Philomath Oregon. Our farm was established in January of 2019 and is run by 4 horticulture majors with expertise in sustainable agricultural production. Our mission is to provide our community with the freshest produce and eggs at affordable prices while using our horticultural knowledge to produce crops in a sustainable way. Although we are not organically certified, all of our production methods follow organic guidelines. We never use synthetic fertilizers, pesticides, herbicides or fungicides. Instead, we use time tested farming techniques such as crop rotations and the utilization of beneficial insects to combat pest and disease issues in our crops. Instead of conventional fertilizers, we use compost and natural sources of nutrients to supply our crops with the nutrition they need. </p>
 		<img src="images/4roots2.jpg" alt="4 Roots Farm">
+		<h2 id="chickens">Our Chickens</h2>
+		<p>Our chickens are raised on our pasture where they have plenty of room to roam and do what chickens do best. We source our feed from a local feed company called Mosaic farms. Mosaic farms sources their feed from local farms and they value sustainable practices. Their feed is non gmo as well as corn and soy free. Check out their website for more information on their feed at <a href="www.mosaicfarms.com">mosaicfarms.com</a>. We strive to be as transparent with our production methods as possible.</p>
+		<h2 id="contact-us">Contact Us</h2>
+		<p>If you have any questions about our farm or would like to join our CSA program please feel free to contact us at 4rootsfarm@gmail.com.</p>
 	</div>
 
-	<div id="footer">
+<!-- 	<div id="footer">
 		<div id="contact">
 			<h3>Contact us!</h3>
 			<p>info@4rootsfarm.com</p>
@@ -42,11 +49,6 @@
 			<h3>Sign Up Now!</h3>
 
 		</div>
-	</div>
+	</div> -->
 </body>
-<script src="index.js"></script>
-<script
-  src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
-  integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
-  crossorigin="anonymous"></script>
 </html>
